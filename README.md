@@ -9,20 +9,20 @@ What the script does
 
 You need to edit the script first.
 
-In the exec.py script change the username to your user account's name
-'''
+In the exec.py script change the username to your user account name
+```
 cron = CronTab(user='username')
-'''
+```
+
 Also change the address from 'python3 ./compcode.py' to the full directory path like below
-'''
 python3 /home/tmw98/Codes/python/scritps/compcode.py
-'''
+
 
 In the compcode.py script change the username and password to your MySQL's username and password
-'''
+```
 db_cursor, db= connect_db('username', 'password')
-'''
-a
+```
+
 Now to get access to your Google Calendar you need to go through this page and do the quick start method
 It'll give you a client.json file rename it to client_secret.json and paste it in the folder with scripts.
 
